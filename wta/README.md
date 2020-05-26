@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
+## Installations
+Client:<br>
+ng add @angular/material<br>
+Server:<br>
+npm install --save express<br>
+npm install --save-dev nodemon<br>
+npm install --save body-parser<br>
+npm install --save mongoose<br>
+npm install --save multer<br>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
