@@ -1,0 +1,24 @@
+<div class="main-div">
+<mat-card class="custom">
+	<label id="example-radio-group-label">Post: ECE CR</label>
+<mat-radio-group
+  aria-labelledby="example-radio-group-label"
+  class="example-radio-group"
+  [(ngModel)]="favoriteCR">
+  <mat-radio-button class="example-radio-button" *ngFor="let cr of crs" [value]="cr">
+    {{cr}}
+  </mat-radio-button>
+</mat-radio-group>
+<div>Your have chosen: {{favoriteCR}}</div>
+
+</mat-card>
+<div class="center">
+<mat-action-row>
+   <button 
+       mat-raised-button color="primary" 
+       routerLink="/general-elections/president" 
+       [disabled]="!favoriteCR" (click)="chosenCR()">Next
+   </button>
+</mat-action-row>
+</div>
+</div>

@@ -1,0 +1,24 @@
+<div class="main-div">
+<mat-card class="custom">
+	<label id="example-radio-group-label">Post: President</label>
+<mat-radio-group
+  aria-labelledby="example-radio-group-label"
+  class="example-radio-group"
+  [(ngModel)]="favoritePresident">
+  <mat-radio-button class="example-radio-button" *ngFor="let president of presidents" [value]="president">
+    {{president}}
+  </mat-radio-button>
+</mat-radio-group>
+<div>Your have chosen: {{favoritePresident}}</div>
+
+</mat-card>
+<div class="center">
+<mat-action-row>
+   <button 
+       mat-raised-button color="primary" 
+       routerLink="/general-elections/vice-president" 
+       [disabled]="!favoritePresident" (click)="chosenPresident()">Next
+   </button>
+</mat-action-row>
+</div>
+</div>

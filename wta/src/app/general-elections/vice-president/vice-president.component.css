@@ -1,0 +1,21 @@
+.main-div{
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.custom.mat-card{
+  margin: 30px;
+ }
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
