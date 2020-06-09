@@ -14,11 +14,11 @@ npm install --save-dev nodemon<br>
 npm install --save body-parser<br>
 npm install --save mongoose<br>
 npm install --save multer<br>
-Add 
+Add  "start:server": "nodemon server.js" in package.json under e2e<br>
 
 ## Run
-Client: ng serve
-Server: npm run start:server
+Client: ng serve<br>
+Server: npm run start:server<br>
 
 ## Development server
 
