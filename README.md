@@ -14,6 +14,11 @@ npm install --save-dev nodemon<br>
 npm install --save body-parser<br>
 npm install --save mongoose<br>
 npm install --save multer<br>
+Add 
+
+## Run
+Client: ng serve
+Server: npm run start:server
 
 ## Development server
 
